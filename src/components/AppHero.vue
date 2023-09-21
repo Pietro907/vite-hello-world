@@ -1,34 +1,23 @@
 <script>
-import Title from "./components/AppTitle.vue";
-import Jumbotron from "./components/AppHero.vue";
 
 
 export default {
   // questo é il vs options object
   data(){
     return{
-      message: 'Hello Vite',
-
-
+    
     }
 
   },
-  components: {
-    Title,
-    Jumbotron,
-  }
+ 
 }
 </script>
 
 <template>
   // your markup here
-  <h1>
-    Hello Vite! {{ message }}
-  </h1>
-  <Title></Title>
-  <Jumbotron></Jumbotron>
 
-
+ <img src="../assets/vue.svg" alt="">
+ 
 </template>
 
 <style scoped>
@@ -45,5 +34,10 @@ export default {
 
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.jumbotron {
+    background-color: red;
+    width: 50px;
+    height: 50px;
 }
 </style>
