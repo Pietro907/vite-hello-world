@@ -1,30 +1,23 @@
 <script>
-import Title from "./components/AppTitle.vue";
 
 
 export default {
   // questo é il vs options object
   data(){
     return{
-      message: 'Hello Vite',
-
-
+    
     }
 
   },
-  components: {
-    Title,
-  }
+  
 }
 </script>
 
 <template>
   // your markup here
   <h1>
-    Hello Vite! {{ message }}
+    La mia prima App con Vite
   </h1>
-  <Title></Title>
-
 </template>
 
 <style scoped>
